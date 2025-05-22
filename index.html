@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sarthak Saklani | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Sarthak Saklani</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="section-center">
+      <h2>Computer Science Student & C++ Enthusiast</h2>
+      <p>Passionate about problem-solving and web development.</p>
+    </section>
+
+    <section id="about" class="section-center about-section">
+      <h2>About Me</h2>
+      <img src="your-photo.jpg" alt="Sarthak Saklani" class="profile-photo" />
+      <p>
+        I'm a passionate Computer Science student with strong foundations in Data Structures and Algorithms, and a deep interest in problem-solving using C++. I also build modern, responsive websites using HTML, CSS, and JavaScript. Always eager to learn and explore new technologies, I'm focused on growing as a developer and contributing to impactful projects.
+      </p>
+    </section>
+
+    <section id="skills" class="section-center">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>C++</li>
+        <li>Data Structures & Algorithms</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section-center">
+      <h2>Projects</h2>
+      <p>Coming soon!</p>
+    </section>
+
+    <section id="contact" class="section-center">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+      <p class="contact-info">
+        Or email me directly: <a href="mailto:sarthaksaklni1@gmail.com">sarthaksaklni1@gmail.com</a><br />
+        GitHub: <a href="https://github.com/sarthaksaklani" target="_blank" rel="noopener">github.com/sarthaksaklani</a><br />
+        LinkedIn: <a href="https://linkedin.com/in/sarthaksaklani" target="_blank" rel="noopener">linkedin.com/in/sarthaksaklani</a>
+      </p>
+      <p id="form-status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Sarthak Saklani</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
